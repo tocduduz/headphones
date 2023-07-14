@@ -28,6 +28,7 @@ header nav ul{
     
     
 }
+
 header nav ul li{
     display: flex;
   
@@ -42,6 +43,11 @@ header nav ul li a{
     margin-right: 20px;
     
 }
+header nav ul li a:hover{
+    cursor: pointer;
+    color: #FF6565;
+}
+
 header div{
     display: flex;
     flex-direction: column;
@@ -50,10 +56,18 @@ header div{
     margin: 200px;
     color: #979797;
 }
+header div h1{
+    margin-bottom: 0;
+
+}
+header div h2{
+    padding-top: 0;
+}
 header div button{
     background-color: #FF6565;
     border: none;
-    padding: 30px, 30px, 30px, 30px;
+    font-size: 20px;
+    padding:  5px 10px 5px 10px;
     border-radius: 50px;
 }
     
