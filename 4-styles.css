@@ -238,7 +238,24 @@ main .products p{
     padding:5px 8px 5px 8px;
 }
 
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 100px;
+  margin-top: 20px;
+  background-color: #071629;
+  width: 100%;
 
+}
+footer div ul{
+  display: flex;
+  
+}
+footer div ul li{
+  display: flex;
+  margin: 5px;
+}
 
 
     
